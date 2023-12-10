@@ -19,15 +19,20 @@ console.log(n2 === n3) //identico a
 console.log(n2 != n3) //não é igual
 console.log(n2 !== n3) //não é identico
 
+/* Operadores relacionais */
+
 console.log(n1 > n2) //maior
 console.log(n1 < n2) //menor
 console.log(n1 >= n2) //maior ou igual
 console.log(n1 <= n2) //menor ou igual
 
+
+/* Operadores lógicos */
+
 let j = true
 let a = false
 
-console.log(j && a) // e and
-console.log(j || a) // ou our
+console.log(j && a) // e and os dois tem que ser verdadeiro para retornar verdadeiro 
+console.log(j || a) // ou our um deles tem que ser verdadeiro para retornar verdadeiro
 console.log(!a) // não not negativa
 console.log(!j)

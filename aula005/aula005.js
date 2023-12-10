@@ -4,12 +4,13 @@
  Comentario em bloco
  */
 
- //criar variaves seja com let ou var
+//criar variaves seja com let ou var de preferencia usar let
 
  let produto = 'maça'
  let quantidade = 9
  let preco = 7.59
- let calculo = quantidade*preco
+ let calculo = quantidade * preco
+
  document.write(`Preço total é R$ ${calculo} <br>`)
  console.log(new Intl.NumberFormat('pt-br').format(calculo)) // jeito de add o calculo no console
 
@@ -20,12 +21,12 @@
  //criar constant
 
  const materia = 'matematica'
- const av1 = 95
- const av2 = 95
+ const av1 = 9.5
+ const av2 = 9.5
  const notaTotal = (av1 + av2) / 2
 
  document.write (`Nota final ${notaTotal} <br>`)
- document.write (`Nota final ${notaTotal.toFixed(1)} <br>`)
+ document.write (`Nota final ${notaTotal.toFixed(2)} <br>`)
 
  let nota1 = 9
  let nota2 = 7

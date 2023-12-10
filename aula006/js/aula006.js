@@ -1,5 +1,5 @@
 // DOM = Document Object Model
-/* Arvore com elementos desde o browser, a janela do browser, 
+/* Árvore com elementos desde o browser, a janela do browser, 
 o documento e cada elemento html que formam os conteudos 
  */
 /* 
@@ -26,7 +26,7 @@ let titulo = document.querySelector('h1')
 
 //exemplo
 titulo.textContent = 'DOM'
-// O titulo que antes era aula 06 agora é dom pq foi modificado
+// O titulo que antes era AULA 06 agora é DOM porque foi modificado
 
 /* o .querySelecto seleciona uma parte, um comando especifico que vc deseja ver, para selecionar tudo use o .querySelectoAll com base na tag, #id ou .class
  */
@@ -38,11 +38,12 @@ let testando = document.querySelectorAll('.box')
 document.write(testando[0].textContent)
 document.write(testando[1].textContent)
 document.write(testando[2].textContent)
-//testando [0].textContent = ' aoh meu prefeito'
+//testando [0].textContent = 'texto qualquer'
 
 // existem outros métodos mas PREFIRA USAR O querySelector()
 
-/* .getElementsByTagName()
+/* 
+.getElementsByTagName()
 .getElementsById()
 getElementsByClassName()
  */
