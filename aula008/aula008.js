@@ -4,21 +4,21 @@ let box = document.querySelectorAll('box')
 
 /* Funções sem paramentros(sem informações entre os parenteses ) e sem retorno (não utiliza a palavra return) (procedure = prodecimento é uma estrutura igual de uma função que não tem retorno )*/
 
-function stdf() {
+function etdf() {
     document.write('Função sem retorno e sem parametro <br>')
 }
 
 /* Função sem parametro e com retorno (function) */
 
-function stdf2(){
+function etdf2(){
  return 'Função com retorno e sem parametro <br>'
 
 }
 
 //CHAMAR A FUNÇÃO = executar ela
 
-stdf()
-document.write(stdf2())
+etdf()
+document.write(etdf2())
 
 let n1 = 6
 let n2 = 2
@@ -44,7 +44,7 @@ adicao(29, 2)
 document.write(`<p>${adicao2(n1, n2)} <p>`)
 document.write(`<p>${adicao2(9,5)} <p>`)
 
-/* função anonima = não tem nome pode ou não ter parametros pode ou não ter retorno */
+/* função anonima = não tem nome pode ou não ter parametros pode ou não ter retorno, geralmente usada quando é preciso passar uma função como parametro dentro de outra */
 
 titulo.addEventListener('click', function
 (){
