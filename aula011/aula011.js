@@ -56,3 +56,4 @@ do {
 
 //aqui o iterador esta com valor 3
 console.log(iterador)
+//qualquer coisa 
